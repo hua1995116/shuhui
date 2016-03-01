@@ -1,0 +1,91 @@
+﻿@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style-type:none;
+}
+body{
+	width:auto;
+	height:auto;
+	background-image:url(../images/bg.jpg);
+}
+
+
+.container1{
+    margin:0px auto;
+    width:1200px;
+    padding: 60px 0;
+}
+/*主体*/
+.bodyz{
+    float:right;
+    width:980px;
+    height: 700px;
+    background: #fff;
+}
+.bodyztop{
+    width:920px;
+    height:50px;
+} 
+.topin{
+	width:900px;
+	height:50px;
+	border-bottom:1px solid #ddd;
+	text-align: center;
+	margin:0 auto;
+}
+.biaoti{
+	width:108px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "黑体";
+    font-size: 14px;
+}
+.bodyx{
+
+}
+.box1{
+	width:290px;
+	height:250px;
+	background: #ddd;
+	float: left;
+	margin-top:16px;
+	margin-left:26px;
+}
+.boxtop{
+    width:290px;
+    height:180px;
+    background:#BDB76B;
+}
+.boxtopimg{
+    height: 162px;
+    width: 290px;
+}
+.boxbottom{
+	width:290px;
+	height:70px;
+	background:#FF8C00;
+}
+.author{
+	width:120px;
+	height: 70px;
+	text-align: center;
+	line-height: 50px;
+	float:left;
+}
+.collect{
+	width: 70px;
+	height:70px;
+	float: right;
+	line-height: 50px;
+	text-align: center;
+}
+.good{
+	width:50px;
+	height:70px;
+	float:right;
+	line-height: 50px;
+}

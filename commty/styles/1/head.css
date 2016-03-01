@@ -1,0 +1,356 @@
+﻿/*导航*/
+#list{
+	width:190px;
+	height:436px;
+	float:left;
+	background:url(../../images/dhbj.png);
+	top: 0px;
+}
+.dhone li a{
+	width:150px;
+	height:56px;
+	text-decoration:none;
+	color:#14191E;
+	float: left;
+}
+#list .dhone{
+	width: 170px;
+	list-style-type:none;
+	margin-left:10px;
+}
+#list .ddhh1{
+	width:170px;
+	height:56px;
+	line-height:56px;
+	font-family: "黑体";
+	border-bottom: 1px solid #EDF1F2;
+	color:#14191E;
+}
+/*有分枝1*/
+#list .ddhh2{
+	width:170px;
+	height:56px;
+	line-height:56px;
+	font-family: "黑体";
+	border-bottom: 1px solid #EDF1F2;
+	color:#14191E;
+}
+.ddhh2 .none2{
+	display: none;
+	background:#fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+    -moz-box-shadow: 2px 2px 8px #909090;/* for firefox */
+    -webkit-box-shadow: 2px 2px 8px #909090;/* for safari or chrome */
+    box-shadow:2px 2px 8px #909090;/* for opera or ie9 */
+    border-left: #fff solid 1px;
+    width:300px;
+    margin-left:165px;
+    z-index: 1000;
+    position: absolute;
+}
+.cover2{
+	height: 56px;
+	background: #fff;
+	width:12px;
+	margin-left: -12px;
+	float: left;
+}
+.none2 ul{
+	width:300px;
+}
+.none2 ul li{
+	color: #ddd;
+	width:75px;
+	height: 40px;
+	float: left;
+	text-align: center;
+    line-height: 40px;
+}
+/*设置超链接字体样式和框*/
+.none2 ul li a{
+	width:60px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 5px;
+	margin-top: 7px;
+	color: #B79090;
+}
+.none2 ul li a:hover{
+	width:60px;
+	height:30px;
+	text-align: center;
+	background: #ddd;
+	color:#fff;
+}
+/*end*/
+/*不能超链标题*/
+.none2head1{
+	width:300px;
+	color:#ff0000;
+	height:26px;
+	line-height: 26px;
+}
+.none2head2{
+	width:300px;
+	color:#ff0000;
+	height:26px;
+	line-height: 26px;
+	margin-top: 80px;
+}
+
+.ddhh2:hover{
+    height: 56px;
+    width:160px;
+    border-bottom:#14191E 1px solid;
+    background:#fff;
+    color:#333;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+    -moz-box-shadow: 2px 2px 8px #909090;/* for firefox */
+    -webkit-box-shadow: 2px 2px 8px #909090;/* for safari or chrome */
+    box-shadow:2px 2px 8px #909090;/* for opera or ie9 */
+}
+.ddhh2:hover .none2{
+	display: block;
+}
+/*有分枝2*/
+#list .ddhh3{
+	width:170px;
+	height:56px;
+	line-height:56px;
+	font-family: "黑体";
+	border-bottom: 1px solid #EDF1F2;
+	color:#14191E;
+}
+.ddhh3 .none3{
+	display: none;
+	background:#fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+    -moz-box-shadow: 2px 2px 8px #909090;/* for firefox */
+    -webkit-box-shadow: 2px 2px 8px #909090;/* for safari or chrome */
+    box-shadow:2px 2px 8px #909090;/* for opera or ie9 */
+    border-left: #fff solid 1px;
+    width:300px;
+    margin-left:165px;
+    z-index: 1000;
+    position: absolute;
+}
+.cover3{
+	height: 56px;
+	background: #fff;
+	width:12px;
+	margin-left: -12px;
+	float: left;
+}
+.none3 ul{
+	width:300px;
+}
+.none3 ul li{
+	color: #ddd;
+	width:75px;
+	height: 40px;
+	float: left;
+	text-align: center;
+    line-height: 40px;
+}
+/*设置超链接字体样式和框*/
+.none3 ul li a{
+	width:60px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 5px;
+	margin-top: 7px;
+	color: #B79090;
+}
+.none3 ul li a:hover{
+	width:60px;
+	height:30px;
+	text-align: center;
+	background: #ddd;
+	color:#fff;
+}
+/*end*/
+/*不能超链标题*/
+.none3head1{
+	width:300px;
+	color:#ff0000;
+	height:26px;
+	line-height: 26px;
+}
+.none3head2{
+	width:300px;
+	color:#ff0000;
+	height:26px;
+	line-height: 26px;
+	margin-top: 80px;
+}
+
+.ddhh3:hover{
+    height: 56px;
+    width:160px;
+    border-bottom:#14191E 1px solid;
+    background:#fff;
+    color:#333;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+    -moz-box-shadow: 2px 2px 8px #909090;/* for firefox */
+    -webkit-box-shadow: 2px 2px 8px #909090;/* for safari or chrome */
+    box-shadow:2px 2px 8px #909090;/* for opera or ie9 */
+}
+.ddhh3:hover .none3{
+	display: block;
+}
+/*有分枝3*/
+#list .ddhh4{
+	width:170px;
+	height:56px;
+	line-height:56px;
+	font-family: "黑体";
+	border-bottom: 1px solid #EDF1F2;
+	color:#14191E;
+}
+.ddhh4 .none4{
+	display: none;
+	background:#fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+    -moz-box-shadow: 2px 2px 8px #909090;/* for firefox */
+    -webkit-box-shadow: 2px 2px 8px #909090;/* for safari or chrome */
+    box-shadow:2px 2px 8px #909090;/* for opera or ie9 */
+    border-left: #fff solid 1px;
+    width:300px;
+    margin-left:165px;
+    z-index: 1000;
+    position: absolute;
+}
+.cover4{
+	height: 56px;
+	background: #fff;
+	width:12px;
+	margin-left: -12px;
+	float: left;
+}
+.none4 ul{
+	width:300px;
+}
+.none4 ul li{
+	color: #ddd;
+	width:100px;
+	height: 40px;
+	float: left;
+	text-align: center;
+    line-height: 40px;
+    margin-top: 5px;
+}
+/*设置超链接字体样式和框*/
+.none4 ul li a{
+	width:80px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 5px;
+	margin-top: 7px;
+	color: #B79090;
+}
+.none4 ul li a:hover{
+	width:80px;
+	height:30px;
+	text-align: center;
+	background: #ddd;
+	color:#fff;
+}
+/*end*/
+.ddhh4:hover{
+    height: 56px;
+    width:160px;
+    border-bottom:#14191E 1px solid;
+    background:#fff;
+    color:#333;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+    -moz-box-shadow: 2px 2px 8px #909090;/* for firefox */
+    -webkit-box-shadow: 2px 2px 8px #909090;/* for safari or chrome */
+    box-shadow:2px 2px 8px #909090;/* for opera or ie9 */
+}
+.ddhh4:hover .none4{
+	display: block;
+}
+/*有分枝4*/
+#list .ddhh5{
+	width:170px;
+	height:56px;
+	line-height:56px;
+	font-family: "黑体";
+	border-bottom: 1px solid #fff;
+	color:#14191E;
+}
+.ddhh5 .none5{
+	display:none;
+	background:#fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+    -moz-box-shadow: 2px 2px 8px #909090;/* for firefox */
+    -webkit-box-shadow: 2px 2px 8px #909090;/* for safari or chrome */
+    box-shadow:2px 2px 8px #909090;/* for opera or ie9 */
+    border-left: #fff solid 1px;
+    width:300px;
+    margin-left:165px;
+    z-index: 1000;
+    position: absolute;
+}
+.cover5{
+	height: 56px;
+	background: #fff;
+	width:12px;
+	margin-left: -12px;
+	float: left;
+}
+.none5 ul{
+	width:300px;
+}
+.none5 ul li{
+	color: #ddd;
+	width:100px;
+	height: 40px;
+	float: left;
+	text-align: center;
+    line-height: 40px;
+    margin-top: 5px;
+}
+/*设置超链接字体样式和框*/
+.none5 ul li a{
+	width:80px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 5px;
+	margin-top: 7px;
+	color: #B79090;
+}
+.none5 ul li a:hover{
+	width:80px;
+	height:30px;
+	text-align: center;
+	background: #ddd;
+	color:#fff;
+}
+/*end*/
+.ddhh5:hover{
+    height: 56px;
+    width:160px;
+    border-bottom:#14191E 1px solid;
+    background:#fff;
+    color:#333;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+    -moz-box-shadow: 2px 2px 8px #909090;/* for firefox */
+    -webkit-box-shadow: 2px 2px 8px #909090;/* for safari or chrome */
+    box-shadow:2px 2px 8px #909090;/* for opera or ie9 */
+}
+.ddhh5:hover .none5{
+	display: block;
+}}

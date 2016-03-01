@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+#center dl{
+   height: 245px;
+   width: 200px;
+   float: left;
+   margin:32px 0px 0px 48px; 
+   box-shadow: 0 2px 4px rgba(0,0,0,0.3),0 0 60px rgba(0,0,0,0.1) inset;
+	-o-box-shadow: 0 2px 4px rgba(0,0,0,0.3),0 0 60px rgba(0,0,0,0.1) inset;
+    -webit-box-shadow: 0 2px 4px rgba(0,0,0,0.3),0 0 60px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.3),0 0 60px rgba(0,0,0,0.1) inset;
+}
+#center dl dd{
+	float: left;
+}
+#center dl .xinxi{
+	width: 90px;
+	height: 20px;
+    color: #A16D6D;
+    padding-left: 5px;
+}

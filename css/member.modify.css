@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	width:auto;
+	height:auto;
+	background-image:url(../images/BK.jpg);
+}
+#list{
+	width:160px;
+	height:416px;
+	border:1px solid #bbb;
+	margin:100px 0 0 150px;
+	float:left;
+	border-width:thick;
+	border-radius:10px;
+}
+#list ul{
+	list-style-type:none;
+}
+#list ul li{
+	width:auto;
+	height:56px;
+	border:2px solid #bbb;
+	text-align:center;
+	line-height:56px;
+}
+#list ul li a{
+	text-decoration:none;
+	color:black;
+}
+#center{
+	width:700px;
+	border:1px solid #bbb;
+	float:left;
+	margin:100px 0 0 70px;
+	border-width:thick;
+	border-radius:10px;
+}
+#center h2{
+	background:#00BBFF;
+	color:#fff;
+	font-size:40px;
+	font-family:'楷体';
+	text-align:center;
+}
+#center dl{
+	margin:0 0 0 150px;
+}
+#center dl dd{
+	margin:10px 0 0 0;
+	font-size:20px;
+}
+#center input.text{
+	width:180px;
+	background:;
+	color:#000000;
+}
+#groupface {
+	cursor:pointer;
+	position:relative;
+	left:50px;
+	width:100px;
+	height:100px;
+}
+
+.choose_face {
+	margin-top:8px;
+	border:1px solid #999;
+	width:361px;
+	height:557px;
+	display:none;
+	clear:both;
+}
+.choose_face ul{
+	list-style-type:none;
+
+}
+.choose_face ul li {
+	width:60px;
+	float:left;
+}
+.choose_face ul li img {
+	cursor:pointer;
+	width:60px;
+	height:60px;
+	border:1px solid #999;
+	float:left;
+}
+.choose_face ul li img:hover {
+	border:1px solid #000;
+}

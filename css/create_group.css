@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style-type:none;
+}
+body{
+	width:auto;
+	height:auto;
+	background-image:url(../images/bg.jpg);
+}
+.contain{
+	width: 1200px;
+	margin:20px auto;
+	height: 1285px;
+}
+
+#bodyr{
+	float: right;
+	width:965px;
+	height:auto;
+	background: #fff;
+}
+.create_title {
+	font-size:16px;
+	font-weight:bold;
+	margin:30px 0 0 40px;
+}
+.create_form {
+	width:580px;
+    padding: 30px 120px ;
+}
+.create_form ul li {
+	clear:both;
+	padding:20px 0 0 20px;
+}
+.create_form ul li img {
+	display:block;
+}
+.create_form ul li select {
+	border:1px solid #d0d6d9;
+	width: 362px;
+	height: 40px;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 7px 7px 7px 9px;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+.group_note1{
+	margin-left: 140px;
+}
+.create_form .group_note {
+	width: 120px;
+	color:#656E73;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	display: block;
+	text-align: right;
+}
+.create_form .group_note strong {
+	font-size:14px;
+	color:#777;
+}
+.create_form .groupname{
+	margin-left: 140px;
+}
+.create_form .group_input {
+	border:1px solid #d0d6d9;
+	width: 344px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 7px 7px 7px 9px;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+.create_form .group_input:focus{
+	border-color: #845C5C;
+    box-shadow: 0 0 5px #845C5C;
+    -webkit-box-shadow: 0 0 5px #845C5C;
+    -moz-box-shadow: 0 0 5px #845C5C;
+}
+.create_form ul li textarea{
+	width: 360px;
+	height: 200px;
+	resize:none;
+    border: 1px solid #d0d6d9;
+    transition:all 0.3s ease-out;
+    -webkit-transition:all 0.3s ease-out;
+    -moz-transition:all 0.3s ease-out;
+}
+.create_form ul li textarea:focus{
+	border: 1px solid #845C5C;
+}
+#groupface {
+	cursor:pointer;
+	position:relative;
+	left:40px;
+}
+
+.choose_face {
+	margin-top:8px;
+	border:1px solid #999;
+	width:397px;
+	height:540px;
+	display:none;
+	clear:both;
+}
+.choose_face dl dd {
+	margin:5px 0 0 5px;
+	float:left;
+	width:60px;
+}
+.choose_face dl dd img {
+	cursor:pointer;
+	width:60px;
+	border:1px solid #999;
+}
+.choose_face dl dd img:hover {
+	border:1px solid #000;
+}
+
+.group_separation {
+	border-bottom:1px dashed #777;
+	clear:both;
+}
+.create_form ul li span#_change {
+	margin:-17px 0 0 220px;
+	color:#0226ca;
+	display:block;
+	font-size:14px;
+}
+.create_form ul li span#_change a {
+	color:#00f;
+	cursor:pointer;
+}
+.group_sub {
+	margin: 20px 0 0 140px;
+	border:none;
+	width:360px;
+	font-size: 14px;
+	background: #A78383;
+	line-height: 40px;
+	height: 40px;
+	color:#fff;
+	text-align: center;
+	cursor:pointer;
+	transition:background-color 0.2s ease 0s;
+	-o-transition:background-color 0.2s ease 0s;
+	-wekit-transition:background-color 0.2s ease 0s;
+	-moz-transition:background-color 0.2s ease 0s;
+	-ms-transition:background-color 0.2s ease 0s;
+}
+.group_sub:hover{
+	background: #98998E;
+}

@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+#photo {
+	width:auto;
+	height:auto;
+	border:2px solid #ccc;
+	font-size:12px;
+	background:#fff;
+}
+#photo h2 {
+	text-indent:0;
+	text-align:center;
+}
+#photo p {
+	text-align:center;
+	padding:20px;
+	clear:both;
+}
+#photo p a {
+	font-size:14px;
+	color:#333;
+}
+#photo dl {
+	float:left;
+	text-align:center;
+	height:250px;
+	width:200px;
+	margin:15px;
+}
+#photo dl dt img {
+	border:none;
+}
+#photo dl dd {
+	padding:2px 0;
+}
+#photo dl dd a {
+	color:#333;
+	text-decoration:none;
+}
+

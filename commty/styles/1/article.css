@@ -1,0 +1,375 @@
+@CHARSET "UTF-8";
+#article {
+	margin: 0 auto;
+	width:1100px;
+	min-height:800px;
+	border:2px solid #ccc;
+	font-size:12px;
+	position:relative;
+	background: #fff;
+	box-shadow: 1px 1px 5px #434539;
+	-wekbit-box-shadow: 1px 1px 5px #434539;
+	-o-box-shadow: 1px 1px 5px #434539;
+	-ms-box-shadow: 1px 1px 5px #434539;
+	-moz-box-shadow: 1px 1px 5px #434539;
+}
+#article .h2 {
+	font-size:14px;
+	background:#CED49B;
+	color: #434539;
+	height:48px;
+	line-height:48px;
+	text-indent:10px;
+}
+#article .h2 .break{
+    height: 30px;
+    width: 50px;
+    color: #000;
+    float: left;
+}
+#article .h2 .tiezi{
+	padding-left: 20px;
+	height: 100px;
+	height: 30px;
+	float: left;
+}
+#article img.nice {
+	position:absolute;
+	top:-30px;
+	left:580px;
+}
+#article img.hot {
+	position:absolute;
+	top:-30px;
+	left:680px;
+}
+#article #subject {
+
+}
+#article #subject dl {
+	width:170px;
+	padding:10px 0 0 45px;
+	float:left;
+}
+#article #subject dl dt {
+	width:170px;
+	margin:0 0 5px 0;
+}
+#article #subject dl dt img {
+	margin:0 auto;
+	display:block;
+	height: 200px;
+	width: 200px;
+}
+#article #subject dl dd {
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	width:85px;
+	float:left;
+}
+#article #subject dl dd.email,#article #subject dl dd.url {
+	width:190px;
+	text-align:left;
+	padding:2px 0 0 0;
+	text-indent:5px;
+}
+#article #subject dl dd a {
+	text-decoration:none;
+	color:#333;
+}
+#article #subject dl dd.user {
+	width:170px;
+	float:none;
+	color:#f60;
+}
+#article #subject dl dd.message {
+	background:url(../../images/x1.gif) no-repeat 5px 35%;
+}
+#article #subject dl dd.friend {
+	background:url(../../images/x2.gif) no-repeat left 35%;
+}
+#article #subject dl dd.guest {
+	background:url(../../images/x3.gif) no-repeat 5px 35%;
+}
+#article #subject dl dd.flower {
+	background:url(../../images/x4.gif) no-repeat left 35%;
+}
+#article div.content {
+	float:right;
+	width:680px;
+	padding:5px 20px 0 0;
+}
+#article div.content .user {
+	height:30px;
+	line-height:30px;
+	background:url(../../images/member.gif) no-repeat left center;
+	border-bottom:1px solid #999;
+	color:#666;
+	padding:0 0 0 20px;
+}
+#article div.content .user span {
+	float:right;
+	color:#06f;
+}
+#article div.content h3 {
+	font-size:14px;
+	height:40px;
+	line-height:40px;
+}
+#article div.content h3 span {
+	font-size:12px;
+	font-weight:normal;
+	color:#06f;
+}
+#article div.content h3 span a {
+	text-decoration:none;
+	color:#06f;
+}
+#article div.content h3 span a:hover {
+	color:#f60;
+	text-decoration:underline;
+}
+#article div.content h3 img {
+	position:relative;
+	top:2px;
+}
+#article div.content .detail {
+	line-height:200%;
+	font-size:14px;
+}
+#article div.content .detail a {
+	text-decoration:none;
+	color:blue;
+}
+#article div.content .detail a:hover {
+	color:#f60;
+	text-decoration:underline;
+}
+#article div.content .detail p.autograph {
+	color:#666;
+	border-bottom:1px dashed #666;
+	margin:5px 0;
+	width:80%;
+	padding:5px 0;
+}
+#article div.content .read {
+	font-size:14px;
+	color:#666;
+	padding:10px 0 0 0;
+}
+#article div.content .read p {
+	padding:0 0 15px 0;
+	text-align:right;
+}
+#article p.line {
+	clear:both;
+	width:95%;
+	margin:0 auto;
+	height:10px;
+	border-bottom:1px solid #333;
+}
+#article dl {
+	width:450px;
+	margin:10px auto;
+	position:relative;
+}
+#article dl dt {
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+}
+#article dl dd {
+	padding:5px 0;
+}
+#article dl dd label {
+	cursor:pointer;
+	display:inline-block;
+	height:20px;
+	padding:0 2px 0 0;
+}
+#article dl dd div#ubb {
+	width:410px;
+	height:26px;
+	background:url(../../images/bgMenubar.gif);
+	border:1px solid #333;
+	border-bottom:1px solid #666;
+}
+#article dl dd div#ubb img {
+	display:block;
+	float:left;
+	padding:5px 0 0 6px;
+}
+#article dl dd div#font {
+	display:none;
+	width:125px;
+	height:40px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:8px;
+	line-height:20px;
+	position:absolute;
+	top:82px;
+	left:5px;
+}
+#article dl dd div#font strong {
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #ccc;
+	cursor:default;
+}
+#article dl dd div#color {
+	display:none;
+	width:152px;
+	height:130px;
+	font-size:12px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:4px 0 0 4px;
+	position:absolute;
+	top:82px;
+	left:120px;
+}
+#article dl dd div#color strong {
+	border:1px solid #999;
+	display:block;
+	width:12px;
+	height:12px;
+	float:left;
+	margin:4px 0 0 4px;
+}
+#article dl dd div#color em {
+	display:block;
+	height:28px;
+	width:80%;	
+	clear:both;
+}
+#article dl dd div#color em input {
+	margin-top:10px;
+	margin-left:4px;
+	width:136px;	
+	height:20px;
+	cursor:pointer;
+	background:#fff;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+
+#article dl dd textarea {
+	width:400px;
+	border:1px solid #C68686;
+	border-top:none;
+	background:#fff;
+	padding:5px;
+	resize:none;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+#article dl dd textarea:focus{
+		border-color: #845C5C;
+}
+#article dl dd input.text {
+	width:250px;
+	height:19px;
+	border:1px solid #C68686;
+	background:#fff;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+#article dl dd input.text:focus{
+	border-color: #845C5C;
+    box-shadow: 0 0 5px #845C5C;
+    -webkit-box-shadow: 0 0 5px #845C5C;
+    -moz-box-shadow: 0 0 5px #845C5C;
+}
+#article dl dd input.yzm {
+	width:60px;
+}
+#article dl dd input.submit {
+	width:75px;
+	height:21px;
+	border:none;
+	background:#DA9E9E;
+	cursor:pointer;
+	color:#392929;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+#article dl dd input.submit:hover {
+	background:#866D6D;
+	color: #FFF;
+}
+#article dl dd img#code {
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#article dl dd#q a {
+	text-decoration:none;
+	color:#333;
+}
+#article div.re dl {
+	width:170px;
+	padding:10px 0 0 45px;
+	float:left;
+}
+#article div.re dl dt {
+	width:170px;
+	margin:0 0 5px 0;
+}
+#article div.re dl dt img {
+	margin:0 auto;
+	display:block;
+	height: 200px;
+	width: 200px;
+}
+#article div.re dl dd {
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	width:85px;
+	float:left;
+}
+#article div.re dl dd.email,#article div.re dl dd.url {
+	width:190px;
+	text-align:left;
+	padding:2px 0 0 0;
+	text-indent:5px;
+}
+#article div.re dl dd a {
+	text-decoration:none;
+	color:#333;
+}
+#article div.re dl dd.user {
+	width:170px;
+	float:none;
+	color:#f60;
+}
+#article div.re dl dd.message {
+	background:url(../../images/x1.gif) no-repeat 5px 35%;
+}
+#article div.re dl dd.friend {
+	background:url(../../images/x2.gif) no-repeat left 35%;
+}
+#article div.re dl dd.guest {
+	background:url(../../images/x3.gif) no-repeat 5px 35%;
+}
+#article div.re dl dd.flower {
+	background:url(../../images/x4.gif) no-repeat left 35%;
+}
+
+
+
+

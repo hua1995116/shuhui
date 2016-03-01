@@ -1,0 +1,129 @@
+﻿@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	width:auto;
+	height:auto;
+	background-image:url(../images/bg.jpg);
+}
+ul{
+	list-style: none;
+}
+.contain{
+	width: 1000px;
+	margin:20px auto;
+	height: 750px;
+}
+#list{
+	width:160px;
+	height:454px;
+	float:left;
+
+}
+#list ul{
+	list-style-type:none;
+	background: #fff;
+}
+#list ul li{
+	width:140px;
+	height:56px;
+	border-bottom:1px solid #E3D6C1;
+	text-align:center;
+	line-height:56px;
+	margin: 0 auto;
+	font-family: "黑体";
+}
+#list ul li a{
+	text-decoration:none;
+	color:black;
+}
+#center{
+	width:800px;
+	height:700px;
+	margin-left: 40px;
+	float:left;
+	background: #fff;
+}
+
+.person{
+	width: 800px;
+	height: 50px;
+	background:#BAD8A5;
+}
+.person1{
+	padding: 0 0 0 10px;
+	width: 110px;
+	height:50px;
+	line-height: 50px;
+	color: #fff;
+	font-family: "黑体";
+	font-size:15px;
+	float: left;
+}
+.bodyz{
+	padding: 30px 80px;
+}
+label{
+	width: 120px;
+	color:#656E73;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	display: block;
+	text-align: right;
+}
+.register_up{
+	width:580px;
+
+}
+.register_up input{
+	width: 344px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 7px 7px 7px 9px;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+.register_up select{
+	border:1px solid #d0d6d9;
+	width: 362px;
+	height: 40px;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 7px 7px 7px 9px;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+.register_up p{
+	height: 50px;
+}
+.register_sub{
+	margin: 20px 0 0 140px;
+	border:none;
+	width:360px;
+	font-size: 14px;
+	background: #A78383;
+	line-height: 40px;
+	height: 40px;
+	color:#fff;
+	text-align: center;
+	cursor:pointer;
+	transition:background-color 0.2s ease 0s;
+	-o-transition:background-color 0.2s ease 0s;
+	-wekit-transition:background-color 0.2s ease 0s;
+	-moz-transition:background-color 0.2s ease 0s;
+	-ms-transition:background-color 0.2s ease 0s;
+}
+.register_sub:hover{
+	background: #98998E;
+}

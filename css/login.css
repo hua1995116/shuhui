@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+
+#denglu{
+	margin:0 auto;
+	background:#fff;
+} 
+#denglu h2{
+	background:#00BBFF;
+	color:#fff;
+	font-size:40px;
+	font-family:'楷体';
+	text-align:center;
+}
+#denglu dl{
+	margin: 0 0 0 120px;
+}
+#denglu dl dd{
+	padding:30px 0 0 0;
+}
+#denglu dl dd input.text.code{
+	width:50px;
+}
+#denglu dl dd input.button{
+	width:80px;
+	background:#000000;
+	color:#fff;
+	margin:0 0 0 80px;
+}
+#location{
+	float:right;
+	margin:100px 10px 0 0;
+	font-size:12px;
+}

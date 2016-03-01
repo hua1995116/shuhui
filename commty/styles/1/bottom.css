@@ -1,0 +1,106 @@
+﻿.last_bottom_all{
+	margin-top: 10px;
+	height: 140px;
+	background: #1E1E1A;
+}
+.last_bottom_center{
+	padding: 40px 0;
+}
+.last_bottom_left{
+	height: 100px;
+	width: 570px;
+	float: left;
+}
+.last_bottom_left .logoname{
+	width: 150px;
+	height: 72px;
+	float: left;
+}
+.last_bottom_left .logoname img{
+   float: right;
+}
+.last_bottom_left .banquan{
+	font-family: "黑体";
+	font-size: 14px;
+	width: 180px;
+	height: 50px;
+	float: left;
+	color:#fff;
+	padding: 20px;
+}
+.last_bottom_left .beian{
+	font-family: "黑体";
+	font-size: 14px;
+	width: 200px;
+	height: 50px;
+	float: left;
+	color:#fff;
+	padding: 20px 0;
+}
+.last_bottom_right{
+	height: 100px;
+	width: 640px;
+	float: left;
+}
+.last_bottom_right .last_bottom_right_about{
+	width: 320px;
+	height: 70px;
+	float: left;
+}
+.last_bottom_right .last_bottom_right_about li{
+	float: left;
+	color: #fff;
+	width: 80px;
+	height: 28px;
+	text-align: center;
+	line-height: 35px;
+	font-family: "黑体";
+	font-size: 13px;
+}
+.last_bottom_right .last_comminute{
+	width: 295px;
+	height: 70px;
+	float: right;
+}
+.last_comminute .tengxun{
+	width: 76px;
+	height: 55px;
+	float: right;
+	background: url(../../../images/comminute.png) -226px 0;
+	transition:all 0.3s ease 0s;
+	-webkit-transition:all 0.3s ease 0s;
+	-ms-transition:all 0.3s ease 0s;
+	-moz-transition:all 0.3s ease 0s;
+	-o-transition:all 0.3s ease 0s;
+}
+.last_comminute .tengxun:hover{
+	background: url(./../../images/comminute1.png) -226px 0;
+}
+.last_comminute .xinlang{
+	width: 76px;
+	height: 55px;
+	float: right;
+	background: url(../../../images/comminute.png) ;
+	transition:all 0.3s ease 0s;
+	-webkit-transition:all 0.3s ease 0s;
+	-ms-transition:all 0.3s ease 0s;
+	-moz-transition:all 0.3s ease 0s;
+	-o-transition:all 0.3s ease 0s;
+}
+.last_comminute .xinlang:hover{
+	background: url(../../../images/comminute1.png) ;
+}
+.last_comminute .weixin{
+	width: 76px;
+	height: 55px;
+	float: right;
+	background: url(../../../images/comminute.png) -334px 0;
+	transition:all 0.3s ease 0s;
+	-webkit-transition:all 0.3s ease 0s;
+	-ms-transition:all 0.3s ease 0s;
+	-moz-transition:all 0.3s ease 0s;
+	-o-transition:all 0.3s ease 0s;
+}
+.last_comminute .weixin:hover{
+	background: url(../../../images/comminute1.png) -334px 0;
+}

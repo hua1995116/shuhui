@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	background: url(../../images/bg.jpg);
+}
+ul {
+	list-style-type:none;
+}
+h2 {
+	font-size:14px;
+	background:#CED49B;
+	color: #434539;
+	height:48px;
+	line-height:48px;
+	text-indent:10px;
+}
+
+#page_num {
+	height:20px;
+	clear:both;
+	padding:20px 0;
+	position:relative;
+	font-size:12px;
+}
+#page_num ul {
+	position:absolute;
+	right:30px;
+	height:20px;
+}
+#page_num ul li {
+	float:left;
+	width:26px;
+	height:20px;
+}
+#page_num ul li a {
+	display:block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #333;
+	text-align:center;
+	text-decoration:none;
+}
+#page_num ul li a:hover,#page_num ul li a.selected {
+	background:#666;
+	font-weight:bold;
+	color:#fff;
+}
+#page_text {
+	height:20px;
+	clear:both;
+	padding:20px 0;
+	font-size:12px;
+}
+#page_text ul {
+	text-align:center;
+}
+#page_text ul li {
+	display:inline;
+}
+#page_text ul li a {
+	color:#333;
+}
+#member {
+	width:auto;
+	height:600px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+#member h2 {
+	text-indent:0;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+#member #member_sidebar {
+	width:300px;
+	height:550px;
+	margin:15px;
+	border:1px dashed #999;
+	float:left;
+}
+#member #member_sidebar dl {
+	width:250px;
+	background:red;
+	margin:15px auto;
+}
+#member #member_sidebar dl dt {
+	height:40px;
+	line-height:40px;
+	background:#999;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+#member #member_sidebar dl dd {
+	height:40px;
+	line-height:40px;
+	background:#eee;
+	font-weight:bold;
+	text-align:center;
+}
+#member #member_sidebar dl dd a {
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+#member #member_sidebar dl dd a:hover {
+	background:#ccc;
+}
+#member #member_main {
+	width:590px;
+	height:550px;
+	margin:15px;
+	border:1px dashed #999;
+	float:right;
+}
+#footer {
+	clear:both;
+	width:auto;
+	height:60px;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+#footer p {
+	font-size:12px;
+	letter-spacing:1px;
+	padding:5px 0 0 0;
+}
+#footer p span {
+	color:#06f;
+}

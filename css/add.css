@@ -1,0 +1,72 @@
+.rides-cs{
+
+	position:fixed;
+	top:220px;
+	right:1px;
+	z-index:999;
+}
+*html .rides-cs{
+	position:absolute;
+	top:expression(eval(document.documentElement.scrollTop));
+	margin:130px 0 0 0;
+}
+.rides-cs .floatL{
+	width:36px;
+	float:left;
+	position:relative;
+	z-index:1;
+	background:#4D5349;
+	cursor:pointer;
+}
+.rides-cs .floatL  .color{
+	color: #fff;
+}
+.rides-cs .floatR{
+	width:250px;
+	float:left;
+	padding:5px;
+	height: 400px;	
+	background:#333;
+	opacity: 0.9;
+}
+.rides-cs .floatR .cn{
+    width: 220px;
+}
+.rides-cs .floatR .cn ul li {
+	height: 50px;
+	width: 220px;
+	color: #ddd;
+	font-size: 13px;
+}
+.rides-cs .floatR .cn ul li:hover{
+	background:#53564D;
+}
+.rides-cs .floatR .cn ul li .add_name{
+	height: 25px;
+    width: 220px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.rides-cs .floatR .cn ul li .add_time{
+	height: 25px;
+    width: 220px;
+    text-align: right;
+}
+.rides-cs .btnOpen,.rides-cs .btnCtn{
+	position:relative;
+	z-index:9;top:0;
+	left:0;
+	background:url(shopnc.png) no-repeat;
+	display:block;
+	width:20px;
+	height:146px;
+	overflow:hidden;
+	padding:8px;
+}
+.rides-cs .btnOpen{
+	background-position:8px 12px;
+}
+.rides-cs .btnCtn{
+	background-position:-31px 12px;
+}

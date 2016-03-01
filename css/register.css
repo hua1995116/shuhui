@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+
+#reg{
+	margin:0 auto;
+	background:#fff;
+} 
+#reg h2{
+	background:#00BBFF;
+	color:#fff;
+	font-size:40px;
+	font-family:'楷体';
+	text-align:center;
+}
+#reg dl{
+	margin: 0 0 0 120px;
+}
+#reg dl dd{
+	padding:10px 0 0 0;
+}
+#reg dl dd input.submit{
+	width:80px;
+	background:#000000;
+	color:#fff;
+	margin:0 0 0 50px;
+}

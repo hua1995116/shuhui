@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	width:auto;
+	height:auto;
+	background-image:url(../images/bg.jpg);
+}
+ul{
+	list-style: none;
+}
+.contain{
+	width: 1000px;
+	height: 760px;
+	margin:20px auto;
+}
+#list{
+	width:160px;
+	height:454px;
+	float:left;
+	background: #fff;
+}
+#list ul{
+	list-style-type:none;
+}
+#list ul li{
+	width:140px;
+	height:56px;
+	border-bottom:1px solid #E3D6C1;
+	text-align:center;
+	line-height:56px;
+	margin: 0 auto;
+	font-family: "黑体";
+}
+#list ul li a{
+	text-decoration:none;
+	color:black;
+}
+#center{
+	width:800px;
+	height:700px;
+	margin-left: 40px;
+	float:left;
+	background: #fff;
+}
+
+.person{
+	width: 800px;
+	height: 50px;
+	background:#BAD8A5;
+}
+.person1{
+	padding: 0 0 0 10px;
+	width: 110px;
+	height:50px;
+	line-height: 50px;
+	color: #fff;
+	font-family: "黑体";
+	font-size:15px;
+	float: left;
+}
+#center dl dd .name{
+	width: 120px;
+	color:#656E73;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: right;
+}
+#center dl dd .img{
+	height: 200px;
+	width: 200px;
+	margin-left: 100px;
+}
+#center dl dd .content{
+	border:1px solid #d0d6d9;
+	width: 344px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 7px 7px 7px 9px;
+	margin-left: 150px;
+	transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+    -ms-transition:all 0.15s ease 0s;
+    -webkit-transition:all 0.15s ease 0s;
+}
+#center dl dd p{
+	height: 30px;
+}
+#center dl dd form .submit{
+	margin: 20px 0 0 140px;
+	border:none;
+	font-size: 14px;
+	background: #A78383;
+	line-height: 40px;
+	height: 40px;
+	width: 200px;
+	color:#fff;
+	text-align: center;
+	cursor:pointer;
+	transition:background-color 0.2s ease 0s;
+	-o-transition:background-color 0.2s ease 0s;
+	-wekit-transition:background-color 0.2s ease 0s;
+	-moz-transition:background-color 0.2s ease 0s;
+	-ms-transition:background-color 0.2s ease 0s;
+}
+#center dl dd form .submit:hover{
+	background: #98998E;
+}

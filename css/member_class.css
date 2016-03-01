@@ -1,0 +1,64 @@
+﻿@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	width:auto;
+	height:auto;
+	background-image:url(../images/bg.jpg);
+}
+ul{
+	list-style: none;
+}
+.contain{
+	width: 1000px;
+	margin:20px auto;
+	height: 750px;
+}
+#list{
+	width:160px;
+	height:454px;
+	float:left;
+
+}
+#list ul{
+	list-style-type:none;
+	background: #fff;
+}
+#list ul li{
+	width:140px;
+	height:56px;
+	border-bottom:1px solid #E3D6C1;
+	text-align:center;
+	line-height:56px;
+	margin: 0 auto;
+	font-family: "黑体";
+}
+#list ul li a{
+	text-decoration:none;
+	color:black;
+}
+#center{
+	width:800px;
+	height:700px;
+	margin-left: 40px;
+	float:left;
+	background: #fff;
+}
+
+.person{
+	width: 800px;
+	height: 50px;
+	background:#BAD8A5;
+}
+.person1{
+	padding: 0 0 0 10px;
+	width: 110px;
+	height:50px;
+	line-height: 50px;
+	color: #fff;
+	font-family: "黑体";
+	font-size:15px;
+	float: left;
+}

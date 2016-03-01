@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style-type:none;
+}
+body{
+	width:auto;
+	height:auto;
+	background-image:url(../images/bg.jpg);
+}
+.my_group {
+	min-height:220px;
+}
+.my_group ul li {
+	width:72px;
+	float:left;
+	height:80px;
+	margin:20px 0 10px 0;
+}
+.my_face {
+	display:block;
+	width:56px;
+	margin:0 auto;
+}
+.my_face img {
+	display:block;
+	width:56px;
+	margin:0 auto;
+}
+.my_face img:hover {
+	opacity:0.6;
+}
+.my_name {
+	text-align:center;
+	height:20px;
+	line-height:20px;
+}
+.my_name a {
+	color:#000;
+}
+.my_name a:hover {
+	text-decoration:underline;
+}
+.my_type {
+	text-align:center;
+	color:#666;
+}
